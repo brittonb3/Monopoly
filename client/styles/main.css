@@ -2,8 +2,15 @@
   border: 2px solid black;
 }
 
-.player-selection {
+#player-selection {
   position: absolute;
   top: 200px;
   left: 200px;
+}
+
+#dice {
+  position: absolute;
+  top:200px;
+  left:200px;
+  display: none;
 }

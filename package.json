@@ -2,9 +2,7 @@
   "name": "gameofthronesmonopoly",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/brittonb3/Monopoly/issues"
   },
-  "homepage": "https://github.com/brittonb3/Monopoly#readme"
+  "homepage": "https://github.com/brittonb3/Monopoly#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
