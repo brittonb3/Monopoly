@@ -1,6 +1,6 @@
-var displayPlayerSelection = function() {
-  $("#game-board").hide();
-}();
+// var displayPlayerSelection = function() {
+//   $("#game-board").hide();
+// }();
 
 function validate() {
   var user = document.getElementById('stark').checked;

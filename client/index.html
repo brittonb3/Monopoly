@@ -3,15 +3,21 @@
      <head>
        <title>Game of Thrones Monopoly</title>
        <link rel="stylesheet" href="/client/styles/main.css" />
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
      </head>
      <body>
-         <div class="app-container">
+         <div class="container text-center">
            <!-- This is the User selection  -->
-           <div id="player-selection">
+           <div class="container">
+             <h1 class="jumbotron text-center">Game of Thrones Monopoly</h1>
+             <div id="player-selection">
                <input type="checkbox"  name="players" value="stark" id="stark" />stark
-               <br/>
-               <input onclick="validate(); "type="button" />
+                 <br/>
+                 <button class="btn" onclick="validate();">Start Game</button>
+             </div>
            </div>
+
 
            <!-- This is the main game board is hidden until user selects players  -->
           <div id="game-board">
